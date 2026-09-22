@@ -16,7 +16,7 @@
             "features": {
               "adminSettingsEnabled": true,
               "notificationsEnabled": true,
-              "notificationsListUrl": "https://vvdcomm.sharepoint.com/Engineering"
+              "notificationListUrl": "https://vvdcomm.sharepoint.com/Engineering"
             },
             "colors": {
               "chromeBackground": "#5c2d91",
