@@ -4,17 +4,19 @@
   "https": true,
   "serveConfigurations": {
     "default": {
-      "pageUrl": "https://YOUR_TENANT.sharepoint.com/",
+      "pageUrl": "https://vvdcomm.sharepoint.com/Engineering",
       "customActions": {
         "128e0ead-98e9-417b-be18-7687044f88b2": {
           "location": "ClientSideExtension.ApplicationCustomizer",
           "properties": {
-            "homeUrl": "https://YOUR_TENANT.sharepoint.com",
-            "logoUrl": "https://YOUR_TENANT.sharepoint.com/SiteAssets/logo.png",
+            "homeUrl": "https://vvdcomm.sharepoint.com/Engineering",
+            "logoUrl": "https://vvdcomm.sharepoint.com/SiteAssets/logo.png",
             "logoAltText": "Logo",
             "navigationSource": "jsonFile",
             "features": {
-              "adminSettingsEnabled": true
+              "adminSettingsEnabled": true,
+              "notificationsEnabled": true,
+              "notificationsListUrl": "https://vvdcomm.sharepoint.com/Engineering"
             },
             "colors": {
               "chromeBackground": "#5c2d91",
